@@ -53,9 +53,9 @@ Bard Ermentrout's website [http://www.pitt.edu/~phase/](http://www.pitt.edu/~pha
 describes how to get and use xpp (Bard wrote xpp).
 
 The model file was submitted by:
-Dr. Sheng-Nan Wu
-Department of Physiology
-Natl Cheng Kung U Med Coll
+Dr. Sheng-Nan Wu  
+Department of Physiology  
+Natl Cheng Kung U Med Coll  
 Tainan 70101, Taiwan
 
 ---
