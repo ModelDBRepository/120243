@@ -1,11 +1,10 @@
-<html><pre>
-This is the readme.txt for the models associated with the paper
+# This is the readme.txt for the models associated with the paper
 
-Huang CW, Cheng JT, Tsai JJ, Wu SN, Huang CC. Diabetic hyperglycemia 
-aggravates seizures and status epilepticus-induced hippocampal damage. 
-Neurotox Res (2009) 15:71-81.
+Huang CW, Cheng JT, Tsai JJ, Wu SN, Huang CC. Diabetic hyperglycemia
+aggravates seizures and status epilepticus-induced hippocampal damage.
+*Neurotox Res* (2009) 15:71-81.
 
-Abstract:
+## Abstract:
 
 Epileptic seizures in diabetic hyperglycemia (DH) are not
 uncommon. This study aimed to determine the acute behavioral,
@@ -33,23 +32,24 @@ than rats without diabetes suggests the importance of intensively
 treating hyperglycemia and seizures in diabetic patients with
 epilepsy.
 
---------------------------
+---
 
-To run the model:
+## To run the model:
+
 XPP: start with the command
-xpp ode\hh200x50_Katp.ode
-(or xppaut hh200x50_Katp.ode)
+`xpp ode/hh200x50_Katp.ode`
+(or `xppaut hh200x50_Katp.ode`)
 
 Mouse click on Xi vs t, and change to VE30
 then, click on Initialconds, and then (G)o.
-This makes a trace similar to fig 6A  in the paper of Huang et al. 
+This makes a trace similar to fig 6A in the paper of Huang et al.
 
-<img src="./Figure6A.JPG" alt="Figure 6A">
+![Figure 6A](./Figure6A.JPG)
 
-Mouse click Viewaxes, and Array.  After appropriate changes, a figure
+Mouse click Viewaxes, and Array. After appropriate changes, a figure
 similar to Fig 6B should appear.
 
-Bard Ermentrout's website http://www.pitt.edu/~phase/
+Bard Ermentrout's website [http://www.pitt.edu/~phase/](http://www.pitt.edu/~phase/)
 describes how to get and use xpp (Bard wrote xpp).
 
 The model file was submitted by:
@@ -57,4 +57,7 @@ Dr. Sheng-Nan Wu
 Department of Physiology
 Natl Cheng Kung U Med Coll
 Tainan 70101, Taiwan
-</pre></html>
+
+---
+
+2025-06-02: Converted README to Markdown.
